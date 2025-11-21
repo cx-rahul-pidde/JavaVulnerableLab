@@ -33,4 +33,4 @@ stages:
         projectName: '00252150-ADO-CLI-SCAResolver'
         branchName: 'main'
         tenantName: 'cx_seg'
-        additionalParams: --scan-types='sast,sca' --sca-resolver '/home/vsts/work/1/s/ScaResolver' --sca-resolver-params "--gradle-parameters='-Prepository.proxy.url=123 -Prepository.proxy.username=123 -Prepository.proxy.password=123' --log-level Debug"  
+        additionalParams: --scan-types=sast,sca --sca-resolver /home/vsts/work/1/s/ScaResolver --sca-resolver-params "--gradle-parameters='-Prepository.proxy.url=123 -Prepository.proxy.username=123 -Prepository.proxy.password=123' --log-level Debug"

@@ -33,4 +33,4 @@ stages:
         projectName: '00252150-ADO-CLI-SCAResolver'
         branchName: 'main'
         tenantName: 'cx_seg'
-        additionalParams: --scan-types "sast"
+        additionalParams: --scan-types 'sast'

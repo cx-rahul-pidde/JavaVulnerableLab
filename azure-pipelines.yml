@@ -29,7 +29,7 @@ stages:
       displayName: 'remove tar file'
     - task: Checkmarx AST@3
       inputs:
-        CheckmarxService: 'CxOne-Seg'
+        CheckmarxService: 'CxOne Seg'
         projectName: '00252150-ADO-CLI-SCAResolver'
         branchName: 'main'
         tenantName: 'cx_seg'

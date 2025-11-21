@@ -33,4 +33,4 @@ stages:
         projectName: '00252150-ADO-CLI-SCAResolver'
         branchName: 'main'
         tenantName: 'cx_seg'
-        additionalParams: --scan-types=sast,sca --sca-resolver /home/vsts/work/1/s/ScaResolver --sca-resolver-params "--extract-archives zip --log-level debug"
+        additionalParams: --scan-types sca --sca-resolver "/home/vsts/work/1/s/ScaResolver" --sca-resolver-params "--extract-depth 5 --extract-archives zip --ignore-dev-dependencies --ignore-test-dependencies" -s /home/vsts/work/_temp

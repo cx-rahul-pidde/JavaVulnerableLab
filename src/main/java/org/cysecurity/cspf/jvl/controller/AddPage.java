@@ -36,7 +36,7 @@ public class AddPage extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
         try {
-            // Remediated: Retrieve password from environment variable or system property for security
+            // Retrieve password securely from environment variable or system property
             String password = System.getProperty("APP_PASSWORD"); // TODO: Ensure this property is securely set at runtime
            String fileName=request.getParameter("filename");
            String content=request.getParameter("content");
